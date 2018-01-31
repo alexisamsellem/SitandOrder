@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+      <title>Sit'n'Order</title>
+
+      <!-- Custom fonts for this template -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+
+      <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./sitnorder04.css">
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <script src="./js/sitnorder.js"> </script>
+
+  </head>
+
+  <body>
+
+<!-- --------------    NAVBAR    ------------- -->
+
+  <div class="container-fluid navbar-fixed-top">
+    <div class="navbar-header">
+      <a class="brand" href="#">Sit'n'Order</a>
+    </div>
+  <div class="topnav" id="myTopnav">
+    <a href="#demo">Demo</a>
+    <a href="#howitworks">How it works</a>
+    <a href="#features">Features</a>
+    <a href="javascript:void(0);" style="font-size:20px;" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+  </div>
+
+
+<header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+          <div class="intro-heading text-uppercase">
+            Your insite ordering App
+          </div>
+           <div class="intro-lead-in">
+            Enable your customer to simply sit,
+             order and pay by themselves
+           </div>
+
+      <div class="container-fluid">
+  <!-- Trigger the modal with a button -->
+        <button type="button" class="button button2" data-toggle="modal" data-target="#myModal">Don't wait</button>
+  <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+    
+  <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button button2" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title form-text">Request for a demo</h4>
+        </div>
+        <div class="modal-body">
+          <form>
+            <input type="text" id="fname" name="fname" placeholder="Your name.."">
+            <input type="text" id="lname" name="lname" placeholder="Your e-mail..">
+        </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+        </div>
+      </div>
+
+
+</header>
+
+<!-- -----------------    WHY      -------------------- -->
+
+<section class ="Features" id="features">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase-why">Benefits</h2>
+        <h3 class="section-subheading text-muted">What you get with us</h3>
+      </div>
+    </div>
+    <div class="row text-center">
+    <div class="col-md-4">
+      <img class="icon-feature" src="./images/star.png">
+        <h4 class="service-heading">Enhanced Customer Experience</h4>
+        <p class="text-muted">No more waiting, Menus in all languages, day-to-day customization</p>
+    </div>
+
+    <div class="col-md-4">
+      <img class="icon-feature" src="https://www.percona.com/sites/default/files/icons/recovery.png">
+        <h4 class="service-heading">Time-Cost efficiency </h4>
+        <p class="text-muted">Waiters are no more held by taking orders and payments. It means that you will need fewer of them and they will be fully dedicated to the well being of your customers.</p>
+    </div>
+      <div class="col-md-4">
+        <img class="icon-feature" src="./images/data.png">
+          <h4 class="service-heading">Data Insight</h4>
+          <p class="text-muted">Learn from your Customers. We will deliver you all the metrics and reviews that you need to enable your business to improve and grow</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!---------------------------------- Timeline --------------------------------- -->
+
+        <section class="bkgd-timeline" id="howitworks">
+      <div class="container section-timeline">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase-why">How it Works</h2>
+            <h3 class="section-subheading text-muted">Sitn'Order will provide you customers' </h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="icon2" src="https://t4.ftcdn.net/jpg/01/24/00/73/240_F_124007335_wOwzVNL4aCRGbOK9hzgtAY9woF6cxjqj.jpg">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Order</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Chose, Custom or Modify what you want to get directly from the app</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="icon rounded-circle img-fluid icon2" src="https://us.123rf.com/450wm/dariusl/dariusl1404/dariusl140400042/27456264-mobile-payment-hand-holding-phone-flat.jpg">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Pay</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Let people pay and tip by themselves with their pre-registred credit card</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid icon2" src="http://moziru.com/images/chart-clipart-vector-18.png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4 class="subheading">Insight</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">Get all the data that you need from all your customer and use it to keep their satisfaction to the maximum</p>
+                  </div>
+                </div>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+<!-- ------------   CAROUSEL  ---------------------- -->
+<section class ="carousel" id="demo">
+  <div class="container-fluid mock">
+    <div class="row title-demo">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase-why">Demo</h2>
+      </div>
+    </div>
+      <div class="row">
+        <div class="col-md-3 col-sm-12"><img src="./images/app-qrcode.png" class="img-responsive mock-pic"><p class="text-demo">The customer scans the QR code on the table, in order to identify the restaurant and the table where he is sitting. </p>
+        </div> 
+        <div class="col-md-3 col-sm-12"><img src="./images/app-menu.png" class="img-responsive mock-pic"><p class="text-demo">The customer access instantly to the menu in his language</p>
+        </div>                       
+        <div class="col-md-3 col-sm-12"><img src="./images/app-waiter.png" class="img-responsive mock-pic"><p class="text-demo">The customer navigates through the menu and order what he wantss.</p>
+          <p class="text-demo">The customer can call the waiter for help when needed, or directly select what he needs. The customer can then, access to the summary of his order.</p>
+        </div> 
+        <div class="col-md-3 col-sm-12"><img src="./images/app-pay-time.png" class="img-responsive mock-pic"><p class="text-demo"> When the order is validated, the customer can see the remaing time. He can add courses, but cannot remove. </p>
+        </div>                       
+    </div>
+  </div>          
+</section>
+
+
+<section>
+  <div class="container-fluid footer">
+   
+  </div>
+</section>
+
+<!-- -------------  BOTTOM NAVBAR    ---------------- -->
+    
+  <nav id="main-nav" class="navbar-fixed-bottom" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="nav-bottom">
+          <button class="button button3"  data-toggle="modal" data-target="#myModal">Don't wait</button>
+        </div>
+  </nav><!-- End of Navigation Bar -->
+
+<!-- -------------    FOOTER    ----------------- -->
+
+
+
+    </body>
